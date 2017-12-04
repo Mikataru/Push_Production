@@ -25,6 +25,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'carrierwave'
 gem 'faker'
+gem 'fog'
+gem 'figaro'
 
 #for our local server:
 group :development do
