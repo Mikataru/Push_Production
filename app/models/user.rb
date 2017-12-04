@@ -1,6 +1,6 @@
 class User < ApplicationRecord
 
-	mount_uploader :image, AvatarUploader
+	mount_uploader :avatar, AvatarUploader
 
 	belongs_to :team
 end
